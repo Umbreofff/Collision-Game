@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class CylinderObstacle : MonoBehaviour
 {
-    public float rotationForce = 10;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    [SerializeField] private float rotationForce = 10;
     // Update is called once per frame
     void Update()
     {
